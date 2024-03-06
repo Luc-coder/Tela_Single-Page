@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: FontAwesome;
+    
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    background-color:#f3ffe5;
+}
+
+.container{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/*defaul*/
+
+/*header*/
+
+header{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid black;
+}
+
+header .logo{
+    width: 12%;
+    height: 100%;
+    /* background-color: blue; */
+    border-right: 1px solid black;
+}
+
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+header .choose{
+    width: 30%;
+    height: 100%;
+    /* background-color: orange; */
+    border-right: 1px solid black;
+}
+
+header .choose nav{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header .choose nav ul{
+    list-style-type: none;
+}
+
+header .choose nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header .options{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    border-right: 1px solid black;
+}
+
+header .options nav{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header .options nav ul{
+    list-style-type: none;
+}
+
+header .options nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header .podcast{
+    width: 30%;
+    height: 100%;
+    /* background-color: purple; */
+    border-right: 1px solid black;
+}
+
+header .podcast nav{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header .podcast nav ul{
+    list-style-type: none;
+}
+
+header .podcast nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header .create{
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+header .create p{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/*header*/
+
+/*start*/
+
+.start-absolut{
+    position: absolute;
+    width: 15%;
+    height: 27%;
+    background-image: url('./images/Design\ sem\ nome\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-absolut p{
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+/*start*/
+
+/*main*/
+
+main{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+}
+
+/*main-box*/
+
+main .main-box{
+    width: 100%;
+    height: 80%;
+    /* background-color: orange; */
+}
+
+main .main-box .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1740px;
+}
+
+main .main-box .container .left-main,
+main .main-box .container .right-main{
+    width: 50%;
+    height: 100%;
+}
+
+/* main .main-box .container .left-main{
+    background-color: red;
+} */
+
+main .main-box .container .left-main .big-title,
+main .main-box .container .left-main .rest-title{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main .main-box .container .left-main .big-title{
+    width: 80%;
+    height: 75%;
+    /* background-color: green; */
+}
+
+main .main-box .container .left-main .big-title p{
+    font-size: 110px;
+    padding-top: 10%;
+    padding-left: 14%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+main .main-box .container .left-main .big-title p span{
+    font-family: 'Roboto', sans-serif;
+    color:#96ff16;
+}
+
+main .main-box .container .left-main .rest-title{
+    width: 80%;
+    height: 25%;
+    /* background-color: purple; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main .main-box .container .left-main .rest-title .arrows{
+    width: 50%;
+    height: 100%;
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:center;
+}
+
+main .main-box .container .left-main .rest-title .arrows .container-arrow{
+    width: 20%;
+    height: 40%;
+    background-color: #96ff16;
+    border-radius: 100%;
+    margin: 0 5px;
+    /* border: 1px solid #ecffd5; */
+}
+
+main .main-box .container .left-main .rest-title .arrows .container-arrow i{
+    color: white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+main .main-box .container .left-main .rest-title .number{
+    width: 50%;
+    height: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-box .container .left-main .rest-title .number .number-left p{
+    font-size: 50px;
+    color:#96ff16;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+main .main-box .container .left-main .rest-title .number .number-text p{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* main .main-box .container .right-main{
+    background-color: blue;
+} */
+
+main .main-box .container .right-main img{
+    width: 100%;
+    height: 110%;
+    position: relative;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*main-box*/
+
+/*cards*/
+
+main .cards{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 1px solid black;
+}
+
+main .cards .card-50{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+main .cards .card-50 .logo-card{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+main .cards .card-50 .logo-card .card-box-image{
+    width: 100%;
+    height: 70%;
+}
+
+main .cards .card-50 .logo-card .card-box-image img{
+    width: 60%;
+    height: 80%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .cards .card-50 .logo-card .card-box-image .first{
+    width: 35%;
+    height: 70%;
+}
+
+main .cards .card-50 .logo-card .card-box-image .second{
+    height: 130%;
+    width: 60%;
+}
+
+main .cards .card-50 .logo-card .card-box-title{
+    width: 100%;
+    height: 30%;
+}
+
+main .cards .card-50 .logo-card .card-box-title p{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 0 0 0 70px;
+    font-size: 40px;
+    line-height: 10px;
+}
+
+main .cards .card-50 .text-card{
+    width: 70%;
+    height: 100%;
+}
+
+main .cards .card-50 .text-card p{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 70px;
+    font-size: 20px;
+}
+
+/*cards*/
+
+/*main*/
